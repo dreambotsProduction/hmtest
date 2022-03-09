@@ -504,7 +504,6 @@ def luna_about_callback(update, context):
                  f"\nRead Admin Permissions and Anti-spam for basic info.\n"
                  f"\nRead Detailed Setup Guide to learn about setting up the bot in detail. (Recommended)\n"
                  f"\nIf you do need help with further instructions feel free to ask in @godzilla_chatting.",
-          .
             parse_mode=ParseMode.MARKDOWN,
             disable_web_page_preview=True,
             reply_markup=InlineKeyboardMarkup(
