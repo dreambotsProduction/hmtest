@@ -72,19 +72,19 @@ def get_readable_time(seconds: int) -> str:
 
     return ping_time
 
-LUNA_IMG = "https://telegra.ph/file/7c3c26e0ed938aec91209.jpg"
+LUNA_IMG = "https://telegra.ph/file/29ce0085df966bcabd363.jpg"
 
 PM_START_TEXT = """
-**hey I am Luna Robot** [ㅤ](https://telegra.ph/file/1895e25b7f5e3e7bddfc4.jpg)
-️➖➖➖➖➖➖➖➖➖➖➖➖➖
-**I'm a Powerfull Group Manager Bot With Cool Modules. feel free to add me to your groups!**
-️➖➖➖➖➖➖➖➖➖➖➖➖➖
-☉ **Click the button below for more.**
+**❄︎ 𝗛𝗲𝘆!, 𝗜 𝗮𝗺 𝐆𝐎𝐃𝐙𝐈𝐋𝐋𝐀 𝐗 𝐑𝐎𝐁𝐎𝐓** [ㅤ](https://te.legra.ph/file/123f51960d4878b09ff53.jpg)
+️️◁─ꔸꔸꔸꔸꔸꔸꔸꔸꔸꔸ❚❚ꔸꔸꔸꔸꔸꔸꔸꔸꔸꔸ─▷
+**𝗜'𝗺 𝗩𝗲𝗿𝘆 𝗽𝗼𝘄𝗲𝗿𝗳𝘂𝗹𝗹 𝗠𝗮𝗻𝗻𝗮𝗴𝗲𝗺𝗲𝗻𝘁 nd 𝗧𝗿𝘂𝘀𝘁𝗲𝗱 𝗥𝗼𝗯𝗼𝘁 𝗪𝗶𝘁𝗵 𝗼𝘀𝗺 𝗺𝗼𝗱𝘂𝗹𝗲𝘀.♻️ ! !**
+️️●──────❚❚─────●
+☉ **𝗖𝗹𝗶𝗰𝗸 /help or !help 𝗙𝗼𝗿 𝗠𝗼𝗿𝗲 𝗜𝗻𝗳𝗼.**
 """
 
 buttons = [
     [
-        InlineKeyboardButton(text="➕ Add Luna To Your group ➕", url="http://t.me/lunatapibot?startgroup=true"),
+        InlineKeyboardButton(text="➕ Add me To Your group ➕", url="http://t.me/godzilla_x_robot?startgroup=true"),
     ],
     [
         InlineKeyboardButton(text="About", callback_data="luna_"),
@@ -101,7 +101,7 @@ buttons = [
 
 
 HELP_STRINGS = """
-**Main commands:**  [ㅤ](https://telegra.ph/file/1895e25b7f5e3e7bddfc4.jpg)
+**Main commands:**  [ㅤ](https://te.legra.ph/file/8e981dca354ce420bc579.jpg)
 ❂ /start: Starts me! You've probably already used this.
 ❂ /help: Sends this message; I'll tell you more about myself.
 
@@ -227,7 +227,7 @@ def start(update: Update, context: CallbackContext):
             ),
             parse_mode=ParseMode.HTML,
             reply_markup=InlineKeyboardMarkup(
-                [[InlineKeyboardButton(text="Sᴜᴘᴘᴏʀᴛ", url="https://t.me/lunaXresso")]]
+                [[InlineKeyboardButton(text="Sᴜᴘᴘᴏʀᴛ", url="https://t.me/godzilla_chatting")]]
             ),
         )
         
@@ -398,7 +398,7 @@ def luna_about_callback(update, context):
             f"\n\n1.) first, add me to your group.\n"
             f"2.) then promote me as admin and give all permissions except anonymous admin.\n"
             f"3.) after promoting me, type /reload in group to update the admin list.\n"
-            f"4.) add @LunaAssistant to your group or type /join to invite her.\n"
+            f"4.) add @godzilla_x_Assistant to your group or type /join to invite her.\n"
             f"5.) turn on the video chat first before start to play music.\n"
             f"\n📌 if userbot doesn't join voice chat make sure voice chat is active, or type /leave then type /join again..",
             parse_mode=ParseMode.MARKDOWN,
@@ -482,7 +482,7 @@ def luna_about_callback(update, context):
             reply_markup=InlineKeyboardMarkup(
                 [
                  [
-                    InlineKeyboardButton(text="Alina", url="https://t.me/rizexx"),
+                    InlineKeyboardButton(text="ajay", url="https://t.me/XXXTENTACION_forever"),
                     InlineKeyboardButton(text="Nao", url="https://t.me/xgothboi"),
                  ],
                  [
@@ -503,7 +503,8 @@ def luna_about_callback(update, context):
                  f"\nYou can add me to your group by clicking this link and selecting the chat.\n"
                  f"\nRead Admin Permissions and Anti-spam for basic info.\n"
                  f"\nRead Detailed Setup Guide to learn about setting up the bot in detail. (Recommended)\n"
-                 f"\nIf you do need help with further instructions feel free to ask in @lunaXresso.",
+                 f"\nIf you do need help with further instructions feel free to ask in @godzilla_chatting.",
+          .
             parse_mode=ParseMode.MARKDOWN,
             disable_web_page_preview=True,
             reply_markup=InlineKeyboardMarkup(
@@ -539,7 +540,7 @@ def luna_about_callback(update, context):
         query.message.edit_text(
             text=f"｢ Anti-Spam Settings 」\n"
                      f"\nAntispam: "
-                     f"\nBy enabling this, you can protect your groups free from scammers/spammers.\nRun /antispam on in your chat to enable.\nAppeal Chat: @lunaXresso\n"
+                     f"\nBy enabling this, you can protect your groups free from scammers/spammers.\nRun /antispam on in your chat to enable.\nAppeal Chat: @godzilla_chatting\n"
                      f"\n✪ Anti-Flood allows you to keep your chat clean from flooding."
                      f"\n✪ With the help of Blaclists you can blacklist words,sentences and stickers which you don't want to be used by group members."
                      f"\n✪ By enabling Reports, admins get notified when users reports in chat."
@@ -560,7 +561,7 @@ def luna_about_callback(update, context):
                 f"\n✪ If someone is spamming your group, you can use report feature from your Telegram Client."
                 f"\n✪ Make sure antiflood is enabled, so that users cannot flood/spam your chat."
                 f"\n✪ Do not spam commands, buttons, or anything in bot PM, else you will be Ignored by bot or Gbanned."
-                f"\n✪ If you need to ask anything about this bot or you need help, reach us at @lunaXresso"
+                f"\n✪ If you need to ask anything about this bot or you need help, reach us at @godzilla_chatting"
                 f"\n✪ Make sure you read rules and follow them when you join Support Chat."
                 f"\n✪ Spamming in Support Chat, will reward you GBAN and reported to Telegram as well.\n"
                 f"\nTerms & Conditions can be changed anytime.",
@@ -588,7 +589,7 @@ def luna_about_callback(update, context):
                 [
                   [
                      InlineKeyboardButton(text="Back", callback_data="luna_puqi"),
-                     InlineKeyboardButton(text="☎️ Support", url=f"https://t.me/lunaXresso"),
+                     InlineKeyboardButton(text="☎️ Support", url=f"https://t.me/godzilla_chatting"),
                   ]
                 ]
             ),
@@ -599,7 +600,7 @@ def Source_about_callback(update, context):
     query = update.callback_query
     if query.data == "source_":
         query.message.edit_text(
-            text=""" Hi.. ɪ'ᴀᴍ Lᴜɴᴀ*
+            text=""" Hi.. ɪ'ᴀᴍ godzilla*
                  \nHere is the [sᴏᴜʀᴄᴇ ᴄᴏᴅᴇ](https://www Xhamster.com) .""",
             parse_mode=ParseMode.MARKDOWN,
             disable_web_page_preview=True,
@@ -901,7 +902,7 @@ def main():
 
     if SUPPORT_CHAT is not None and isinstance(SUPPORT_CHAT, str):
         try:
-            dispatcher.bot.sendMessage(f"@{SUPPORT_CHAT}", "I Aᴍ Aʟɪᴠᴇ 🔥")
+            dispatcher.bot.sendMessage(f"@{SUPPORT_CHAT}", "ZINDA HU VAI 🔥")
         except Unauthorized:
             LOGGER.warning(
                 "Bot isnt able to send message to support_chat, go and check!"
