@@ -73,20 +73,20 @@ async def hmm(_, message):
         lel = await edit_or_reply(message, "`Processing...`")
         lol = add_chat(int(message.chat.id))
         if not lol:
-            await lel.edit("Luna ai already activated in this chat")
+            await lel.edit("godzilla ai already activated in this chat")
             return
         await lel.edit(
-            f"Luna ai successfully added for users in the chat {message.chat.id}"
+            f"godzilla ai successfully added for users in the chat {message.chat.id}"
         )
 
     elif status == "OFF" or status == "off" or status == "Off":
         lel = await edit_or_reply(message, "`Processing...`")
         Escobar = remove_chat(int(message.chat.id))
         if not Escobar:
-            await lel.edit("Luna ai was not activated in this chat")
+            await lel.edit("godzilla ai was not activated in this chat")
             return
         await lel.edit(
-            f"Luna ai successfully deactivated for users in the chat {message.chat.id}"
+            f"godzilla ai successfully deactivated for users in the chat {message.chat.id}"
         )
 
     elif status == "EN" or status == "en" or status == "english":
@@ -94,7 +94,7 @@ async def hmm(_, message):
             en_chats.append(chat_id)
             await message.reply_text("English AI chat Enabled!")
             return
-        await message.reply_text("AI Chat Is Already Disabled.")
+        await message.reply_text("godzilla AI Chat Is Already Disabled.")
         message.continue_propagation()
     else:
         await message.reply_text(
